@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>TechCart</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="navTop">
+                <div class="navItem">
+                    <img src="./pics/WEB%20LOGO.webp" alt="the logo" width="50">
+                </div>
+                <!-- Website Name in the Middle -->
+                <div class="website-name">TechCart</div>
+                <div class="navItem">
+                    <div class="search">
+                        <input type="text" placeholder="search..." class="searchInput">
+                        <img src="pics/search%20icon.png" width="20" height="20" alt="searchicon">
+                    </div>
+                </div>
+                <!-- Move "shop now!" below the search bar -->
+                <div class="shop-now-container">
+                    <span class="shop-now" style="color: white">shop now!</span>
+                </div>
+            </div>
+            <!-- Ensure categories are correctly displayed -->
+            <div class="navbottom">
+                <h3 class="menuItem"><a href="phones.html">phones</a></h3>
+                    <h3 class="menuItem"><a href="gaming.html">gaming</a></h3>
+
+                <h3 class="menuItem"><a href="personal-computers.html">personal computers</a></h3>
+                 <h3 class="menuItem"><a href="televisions.html">televisions</a></h3>
+                    <h3 class="menuItem"><a href="accessories.html">accessories</a></h3>
+
+            </div>
+        </nav>
+        <div class="slider">
+            <div class="sliderWrapper">
+                <div class="sliderItem">
+                    <img src="pics/pc.webp" width="100" alt="pc" class="sliderimg">
+                    <div class="sliderbg"></div>
+                    <h1 class="sliderTitle">infiniarc<br> pc</h1>
+                    <h2 class="sliderprice">3.339SAR</h2>
+                    <button class="buyButton" onclick="window.location.href='pc.html'">View</button>
+                </div>
+                <div class="sliderItem">
+                    <img src="pics/cpu.webp" width="100" alt="cpu" class="sliderimg">
+                    <div class="sliderbg"></div>
+                    <h1 class="sliderTitle">intel<br> cpu<br>i9</h1>
+                    <h2 class="sliderprice">2.267SAR</h2>
+                    <button class="buyButton" onclick="window.location.href='cpu.html'">View</button>
+                </div>
+                <div class="sliderItem">
+                    <img src="pics/gpu.webp" width="100" alt="gpu" class="sliderimg">
+                    <div class="sliderbg"></div>
+                    <h1 class="sliderTitle">NVIDIA<br> gpu<br> 4060</h1>
+                    <h2 class="sliderprice">1.599SAR</h2>
+                    <button class="buyButton" onclick="window.location.href='gpu.html'">View</button>
+                </div>
+                <div class="sliderItem">
+                    <img src="pics/ram.webp" width="100" alt="ram" class="sliderimg">
+                    <div class="sliderbg"></div>
+                    <h1 class="sliderTitle">corsair<br> ram<br>32GB</h1>
+                    <h2 class="sliderprice">315SAR</h2>
+                    <button class="buyButton" onclick="window.location.href='ram.html'">View</button>
+                </div>
+                <div class="sliderItem">
+                    <img src="pics/motherboard.webp" width="100" alt="motherboard" class="sliderimg">
+                    <div class="sliderbg"></div>
+                    <h1 class="sliderTitle">AORUS<br> motherboard<br> AORUS Z790</h1>
+                    <h2 class="sliderprice">1.109SAR</h2>
+                    <button class="buyButton" onclick="window.location.href='motherboard.html'">View</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
